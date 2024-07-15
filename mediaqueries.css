@@ -1,0 +1,298 @@
+
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    gap: 122rem; /* Add gap between logo and nav */
+    height: auto;
+  }
+  .nav {
+    display:flex;
+    justify-content: space-between;
+  
+  }
+  .container {
+    height: auto; /* Adjust height for smaller devices */
+    width: auto;
+    background-color: #9baae6;
+    
+  }
+  .container::before {
+    width: 100%;
+    height: 20%;
+  }
+  .contanier::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: #98a9ed;
+ 
+    
+  }
+  
+  .container .hoe {
+    width: 90%; /* Further increase width for very small screens */
+    height: auto; /* Make height auto to accommodate content */
+    padding: 20px; /* Uniform padding */
+    
+  }
+
+  .hoe .content .div-text {
+    padding-top: 10%; /* Adjust padding for smaller screens */
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Add gap between button text and icon */
+    width: max-content; /* Adjust width for smaller screens */
+    height: max-content; /* Adjust height for smaller screens */
+
+  }
+
+  .hoe .content .div-text h1{
+    width: 100%; /* Full width for mobile screens */
+    font-size: 100%;
+
+  } 
+
+  .hoe .content .div-text h4{
+    width: 100%; /* Full width for mobile screens */
+    font-size: 100%;
+
+  }
+  .hoe .content .div-text .btn {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin-bottom: 10px;
+    font-size: 10px;
+    margin-top: 0;
+
+  }
+  .hoe .content .div-img
+  {
+    display: none;
+  }
+  .contanier .hoe {
+    width: 100%; /* Full width for mobile screens */
+    height: auto; /* Adjust height for smaller devices */
+  }
+  .nav_menu {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .section-container-copy
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-containers
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    margin-left: 0;
+
+  }
+
+  .text-container{
+    text-align: justify;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-details-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-upper-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info-container
+  {
+    margin: 5px;
+    font-size: 10px;
+  }
+
+  .spaced-text
+  {
+    display: flex;
+    text-align: justify;
+  }
+  .section {
+    margin: 0;
+  } 
+  footer {
+    margin: -16px;
+  }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 1060px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    height: auto;
+  }
+  .nav {
+    display:flex;
+    justify-content: space-between;
+  
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Adjust height for smaller devices */
+    width: auto;
+    
+  }
+  .container::before {
+    width: 100%;
+    height: 20%;
+  }
+  .container .hoe {
+    width: 90%; /* Further increase width for very small screens */
+    height: auto; /* Make height auto to accommodate content */
+    padding: 20px; /* Uniform padding */
+  }
+
+  .hoe .content .div-text {
+    padding-top: 10%; /* Adjust padding for smaller screens */
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Add gap between button text and icon */
+    width: max-content; /* Adjust width for smaller screens */
+    height: max-content; /* Adjust height for smaller screens */
+
+  }
+
+  .hoe .content .div-text h1{
+    width: 100%; /* Full width for mobile screens */
+    font-size: 100%;
+  } 
+
+  .hoe .content .div-text h4{
+    width: 100%; /* Full width for mobile screens */
+    font-size: 100%;
+  }
+  .hoe .content .div-text .btn {
+    padding: 10px; /* Adjust padding for smaller screens */
+    margin-bottom: 10px;
+    font-size: 10px;
+    margin-top: 0;
+  }
+  .contanier .hoe {
+    width: 100%; /* Full width for mobile screens */
+    height: auto; /* Adjust height for smaller devices */
+  }
+  .nav_menu {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .hoe .content .div-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 100px; */
+    margin-top: 10px;
+    
+  }
+  .hoe .content .div-img img{
+    width: 60%;
+    border: 1px solid #3538c9;
+    border-radius: 50%;
+    padding: 10px;
+   
+  }
+
+  .section-container-copy
+  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-containers
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    margin-left: 0;
+
+  }
+
+  .text-container{
+    text-align: justify;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-details-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-info-upper-container
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info-container
+  {
+    margin: 5px;
+  }
+
+  .spaced-text
+  {
+    display: flex;
+    text-align: justify;
+  }
+}
+
